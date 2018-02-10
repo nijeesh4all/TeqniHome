@@ -1,0 +1,40 @@
+.auth-card{
+    width: 600px;
+    min-height: 400px;
+    /* position: absolute; */
+    top: 25%;
+    left: 25%;
+}
+.container{
+    
+}
+.tool-bar{
+    background-color: #4FC3F7;
+    color: white;
+    text-decoration-style: solid;
+    margin: -5px;
+}
+.example-form{
+    margin-top: 10px;
+    width: 100%;
+}
+.mat-input-container{
+    margin: 10px;
+    margin-left: 10%;
+    min-width: 80%;
+    margin-top: 20px;
+}
+input{
+    width: 80%;
+}
+.welcome-txt{
+    padding: 30px;
+    text-align: center;
+    background-color: #0288D1;
+    width: 110%;
+    margin-left: -10%;
+    color: white;
+    font-weight: 400;
+    font-weight: bolder;
+    font-size: 1.4em;
+}

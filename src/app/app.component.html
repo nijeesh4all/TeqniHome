@@ -1,0 +1,55 @@
+<mat-card class="tool-bar">
+    <h2>Teqnihome</h2>
+</mat-card>
+
+<div class="container">
+  <div class="row justify-content-center" >
+    <mat-card class="auth-card col-12 col-md-auto" *ngIf='!isLoggedon()'>
+      <div class="welcome-txt">
+    Please Login / Sigin up to Continue
+      </div>
+        <mat-tab-group>
+            <mat-tab label="Login">
+              <div class="example-form ">
+
+                <div class="col align-self-center">
+                  <mat-form-field class="example-full-width">
+                      <input matInput placeholder="Email" #email>
+                  </mat-form-field><br>
+  
+                  <mat-form-field class="example-full-width">
+                      <input type="password" matInput placeholder="password" #pwd>
+                  </mat-form-field>
+
+                </div>
+                </div>
+                <button mat-raised-button>Login</button>
+            </mat-tab>
+            <mat-tab label="Register">
+                <div class="example-form ">
+
+                    <div class="col align-self-center">
+                        <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Name" #pwd>
+                        </mat-form-field>
+                      <mat-form-field class="example-full-width">
+                          <input matInput placeholder="Email" #email>
+                      </mat-form-field><br>
+      
+                      <mat-form-field class="example-full-width">
+                          <input type="password" matInput placeholder="password" #pwd>
+                      </mat-form-field>
+
+                      <mat-form-field class="example-full-width">
+                          <input type="password" matInput placeholder="Confirm Password" #pwd>
+                      </mat-form-field>
+    
+                    </div>
+                    </div>
+                    <button mat-raised-button>Login</button>
+            </mat-tab>
+          </mat-tab-group>
+    </mat-card>
+  </div>
+</div>
+
